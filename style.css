@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* undsen style  */
+.container {
+    width: 100vw;
+}
+
+.green-txt {
+    color: #2adb00;
+    font-size: 14px;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    margin-top: 5px;
+}
+
+.logo {
+    padding: 10px;
+}
+
+.logo img {
+    width: 70px;
+}
+
+.navbar-additions {
+    display: flex;
+    font-size: 10px;
+    gap: 5px;
+}
+
+
+.addition {
+    border: 1px solid rgba(0, 0, 0, .06);
+    border-radius: 5px;
+    padding: 3px 5px;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.add-name {
+    font-size: 10px;
+    color: #000;
+    line-height: 14px;
+}
+
+.icon-value-group {
+    display: flex;
+}
+
+.icon {
+    font-size: 16px;
+}
+
+.text-green {
+    color: #2adb00;
+}
+
+.value {
+    margin-left: 7px;
+    font-size: 16px;
+}
+
+.content-links {
+    display: none;
+}
+
+.search-bar {
+    display: none;
+}
+
+/*
+.hamburger-menu {
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hamburger-menu img {
+    width: 28px;
+}
+*/
+
+@media only screen and (min-width: 576px) {}
+
+@media only screen and (min-width: 768px) {}
+
+@media only screen and (min-width: 992px) {}
+
+@media only screen and (min-width: 1200px) {}
+
+@media only screen and (min-width: 1400px) {}
