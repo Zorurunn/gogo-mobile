@@ -1,0 +1,17 @@
+.gogo-footer {
+    padding: 50px 0px 50px 0px;
+}
+
+.links {
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.links ul li a {
+    padding: 1.5rem;
+}
+
+.copyright {
+    justify-content: space-between;
+}

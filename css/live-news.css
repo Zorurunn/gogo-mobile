@@ -1,0 +1,24 @@
+.live-news-container {
+    width: 100%;
+    background-color: black;
+}
+
+.live-news-title {
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.live-news-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 0px 40px 0px 40px;
+}
+
+.live-news-grid>.live-news-title:first-child {
+    grid-column: 1 / span 3;
+}
+
+.live-news-grid>div {
+    padding-bottom: 30px;
+}
