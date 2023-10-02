@@ -43,7 +43,121 @@
         </div>
     </div>
     <div class="container">
-        <div class="navbar">
+        <nav class="navbar">
+            <div class="header-logo">
+                <img src="./img/header-img/gogologo.png" alt="">
+            </div>
+
+            <div class="categorys flex">
+
+                <div class="search-bar">
+                    <input type="checkbox" class="search-toggler">
+                    <div class="search-icons">
+                        <i class=" maru fa-solid fa-magnifying-glass"></i>
+                        <i class=" batsu fa-solid fa-x"></i>
+                    </div>
+                </div>
+
+                <div class="for-s-b flex ">
+
+                    <div class="search-input ">
+                        <input class="inputing" type="text" placeholder="search">
+                        <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
+                        <button class="btn">
+                            <i class="fa-solid fa-magnifying-glass "></i>
+                        </button>
+                    </div>
+                    <div class="category-container flex">
+                        <div class="category-link">
+                            <a href="#">
+                                <h3> &nbsp;Мэдээ&nbsp;</h3>
+                                <i class="fas fa-chevron-down text-12 flex-center"></i>
+                                <ul>
+                                    <li>Мэдээ</li>
+                                    <li>Мэдээ</li>
+                                    <li>Мэдээ</li>
+                                    <li>Мэдээ</li>
+                                    <li>Мэдээ</li>
+                                    <li>Мэдээ</li>
+                                    <li>Мэдээ</li>
+                                    <li>Мэдээ</li>
+                                    <li>Мэдээ</li>
+                                    <li>Мэдээ</li>
+                                    <li>Мэдээ</li>
+                                    <li>Мэдээ</li>
+                                    <li>Мэдээ</li>
+                                </ul>
+                            </a>
+                        </div>
+                        <div class="category-link">
+                            <a href="#">
+                                <h3> &nbsp;Мэдээ&nbsp;</h3>
+                                <i class="fas fa-chevron-down text-12 flex-center"></i>
+                            </a>
+                        </div>
+                        <div class="category-link">
+                            <a href="#">
+                                <h3> &nbsp;Мэдээ&nbsp;</h3>
+                                <i class="fas fa-chevron-down text-12 flex-center"></i>
+                            </a>
+                        </div>
+                        <div class="category-link">
+                            <a href="#">
+                                <h3> &nbsp;Мэдээ&nbsp;</h3>
+                                <i class="fas fa-chevron-down text-12 flex-center"></i>
+                            </a>
+                        </div>
+                        <div class="category-link">
+                            <a href="#">
+                                <h3> &nbsp;English&nbsp;</h3>
+                                <i class="fas fa-chevron-down text-12 flex-center"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="additions flex">
+                <div class="addition flex-center">
+                    <a href="#">
+                        <div class="add-name">Цаг агаар</div>
+                        <div class="icon-value-group">
+                            <div class="icon">
+                                <img src="https://mgl.gogo.mn/newsn/v4/images/sun-icon.b61be7df.svg" width="20" alt="">
+                            </div>
+                            <div class="value">17</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="addition flex-center">
+                    <a href="#">
+                        <div class="add-name">Зурхай</div>
+                        <div class="icon-value-group">
+                            <div class="icon">
+                                <img src="https://mgl.gogo.mn/newsn/v4/images/calendar-icon.ff84145b.svg" width="15"
+                                    alt="">
+                            </div>
+                            <div class="value">9.22</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="addition flex-center">
+                    <a href="#">
+                        <div class="add-name">Валютын ханш</div>
+                        <div class="icon-value-group">
+                            <div class="icon">
+                                <span class="text-green">$</span>
+                                <span style="opacity: 0.1;">|</span>
+                            </div>
+                            <div class="value">3645T</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <!-- <div class="navbar">
 
 
             <div class="contents flex-center">
@@ -163,6 +277,7 @@
                     </div>
 
                     <div class="search-bar">
+                        <input type="checkbox">
                         <i class="fa-solid fa-magnifying-glass"></i>
                     </div>
                 </div>
@@ -214,7 +329,7 @@
 
 
 
-        </div>
+        </div> -->
     </div>
 
     <div class="container">
@@ -233,16 +348,25 @@
                     <div class="highlight-scroll">
                         <div class="scroll-btn">
                             <input type="radio" class="highlight-toggler1" name="radio" value="1" checked></input>
+                            <div class="bar-style">
+                            </div>
                         </div>
+
                     </div>
                     <div class="highlight-scroll">
                         <input type="radio" class="highlight-toggler2" name="radio" value="2"></input>
+                        <div class="bar-style">
+                        </div>
                     </div>
                     <div class="highlight-scroll">
                         <input type="radio" class="highlight-toggler3" name="radio" value="3"></input>
+                        <div class="bar-style">
+                        </div>
                     </div>
                     <div class="highlight-scroll">
                         <input type="radio" class="highlight-toggler4" name="radio" value="4"></input>
+                        <div class="bar-style">
+                        </div>
                     </div>
                 </div>
 
@@ -451,24 +575,52 @@
 
 
                 <div class="highlight-relatives">
-                    <div class="relative-box">
-                        <input type="radio" class="relative-news" name="news" value="highlight">
-                        <img src="https://mgl.gogo.mn/newsn/v4/images/highlightnews.4812c9a7.png" alt="icon" width="15">
-                        Онцлох
+                    <div class="relative-box flex-center">
+                        <input type="radio" class="relative-news-toggler" name="news" value="highlight">
                         </input>
+                        <div class="relative-text flex-center">
+                            <img src="https://mgl.gogo.mn/newsn/v4/images/highlightnews.4812c9a7.png" alt="icon"
+                                width="15">
+                            <h5>Онцлох</h5>
+                        </div>
+
+                        <div class="relative-bar-style"></div>
                     </div>
-                    <div class="relative-box">
+
+                    <div class="relative-box flex-center">
+                        <input type="radio" class="relative-news-toggler" name="news" value="highlight" checked>
+                        </input>
+                        <div class="relative-text flex-center">
+                            <img src="https://mgl.gogo.mn/newsn/v4/images/todaynews.6ba1d8b2.png" alt="icon" width="15">
+                            <h5>Шинэ</h5>
+                        </div>
+
+                        <div class="relative-bar-style"></div>
+                    </div>
+
+                    <div class="relative-box flex-center">
+                        <input type="radio" class="relative-news-toggler" name="news" value="highlight">
+                        </input>
+                        <div class="relative-text flex-center">
+                            <img src="https://mgl.gogo.mn/newsn/v4/images/trend.43e0b806.png" alt="icon" width="15">
+                            <h5>Тренд</h5>
+                        </div>
+
+                        <div class="relative-bar-style"></div>
+                    </div>
+
+                    <!-- <div class="relative-box flex-center">
                         <input type="radio" class="relative-news" name="news" value="highlight" checked>
                         <img src="https://mgl.gogo.mn/newsn/v4/images/todaynews.6ba1d8b2.png" alt="icon" width="15">
                         Шинэ
                         </input>
                     </div>
-                    <div class="relative-box">
+                    <div class="relative-box flex-center">
                         <input type="radio" class="relative-news" name="news" value="highlight">
                         <img src="https://mgl.gogo.mn/newsn/v4/images/trend.43e0b806.png" alt="icon" width="15">
                         Тренд
                         </input>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -480,12 +632,15 @@
                 GoGo <span class="gg-label-blue">СТОРИ</span>
             </div>
 
+
+
             <div class="story-block-box">
 
                 <div class="story-flex-box">
 
-                    <a href="#">
-                        <div class="story-news">
+
+                    <div class="story-news">
+                        <a href="#">
                             <div class="story-gogo-logo">
                                 <img src="https://mgl.gogo.mn//newsn/v4/images/author.df8ba556.svg" width="30" alt="">
                             </div>
@@ -494,15 +649,15 @@
                             </h3>
                             <div class="black-box"></div>
                             <div class="story-image-box">
-                                <img src="https://mgl.gogo.mn/newsn/story/310760-18092023-1695002878-982692408-minii-sanal-bolgoh-nom-65083c561060e312720825.jpg"
+                                <img src="https://mgl.gogo.mn/newsn/np/2023/09/29/5203274/15-105111-1406996982.jpeg"
                                     alt="">
 
                             </div>
-                        </div>
-                    </a>
+                        </a>
+                    </div>
 
-                    <a href="#">
-                        <div class="story-news">
+                    <div class="story-news">
+                        <a href="#">
                             <div class="story-gogo-logo">
                                 <img src="https://mgl.gogo.mn//newsn/v4/images/author.df8ba556.svg" width="30" alt="">
                             </div>
@@ -511,15 +666,15 @@
                             </h3>
                             <div class="black-box"></div>
                             <div class="story-image-box">
-                                <img src="https://mgl.gogo.mn/newsn/story/310760-18092023-1695002878-982692408-minii-sanal-bolgoh-nom-65083c561060e312720825.jpg"
+                                <img src="https://mgl.gogo.mn/newsn/np/2023/09/29/5203274/15-105111-1406996982.jpeg"
                                     alt="">
 
                             </div>
-                        </div>
-                    </a>
+                        </a>
+                    </div>
 
-                    <a href="#">
-                        <div class="story-news">
+                    <div class="story-news">
+                        <a href="#">
                             <div class="story-gogo-logo">
                                 <img src="https://mgl.gogo.mn//newsn/v4/images/author.df8ba556.svg" width="30" alt="">
                             </div>
@@ -528,15 +683,15 @@
                             </h3>
                             <div class="black-box"></div>
                             <div class="story-image-box">
-                                <img src="https://mgl.gogo.mn/newsn/story/310760-18092023-1695002878-982692408-minii-sanal-bolgoh-nom-65083c561060e312720825.jpg"
+                                <img src="https://mgl.gogo.mn/newsn/np/2023/09/29/5203274/15-105111-1406996982.jpeg"
                                     alt="">
 
                             </div>
-                        </div>
-                    </a>
+                        </a>
+                    </div>
 
-                    <a href="#">
-                        <div class="story-news">
+                    <div class="story-news">
+                        <a href="#">
                             <div class="story-gogo-logo">
                                 <img src="https://mgl.gogo.mn//newsn/v4/images/author.df8ba556.svg" width="30" alt="">
                             </div>
@@ -545,15 +700,15 @@
                             </h3>
                             <div class="black-box"></div>
                             <div class="story-image-box">
-                                <img src="https://mgl.gogo.mn/newsn/story/310760-18092023-1695002878-982692408-minii-sanal-bolgoh-nom-65083c561060e312720825.jpg"
+                                <img src="https://mgl.gogo.mn/newsn/np/2023/09/29/5203274/15-105111-1406996982.jpeg"
                                     alt="">
 
                             </div>
-                        </div>
-                    </a>
+                        </a>
+                    </div>
 
-                    <a href="#">
-                        <div class="story-news">
+                    <div class="story-news">
+                        <a href="#">
                             <div class="story-gogo-logo">
                                 <img src="https://mgl.gogo.mn//newsn/v4/images/author.df8ba556.svg" width="30" alt="">
                             </div>
@@ -562,15 +717,15 @@
                             </h3>
                             <div class="black-box"></div>
                             <div class="story-image-box">
-                                <img src="https://mgl.gogo.mn/newsn/story/310760-18092023-1695002878-982692408-minii-sanal-bolgoh-nom-65083c561060e312720825.jpg"
+                                <img src="https://mgl.gogo.mn/newsn/np/2023/09/29/5203274/15-105111-1406996982.jpeg"
                                     alt="">
 
                             </div>
-                        </div>
-                    </a>
+                        </a>
+                    </div>
 
-                    <a href="#">
-                        <div class="story-news">
+                    <div class="story-news">
+                        <a href="#">
                             <div class="story-gogo-logo">
                                 <img src="https://mgl.gogo.mn//newsn/v4/images/author.df8ba556.svg" width="30" alt="">
                             </div>
@@ -579,14 +734,257 @@
                             </h3>
                             <div class="black-box"></div>
                             <div class="story-image-box">
-                                <img src="https://mgl.gogo.mn/newsn/story/310760-18092023-1695002878-982692408-minii-sanal-bolgoh-nom-65083c561060e312720825.jpg"
+                                <img src="https://mgl.gogo.mn/newsn/np/2023/09/29/5203274/15-105111-1406996982.jpeg"
                                     alt="">
 
                             </div>
-                        </div>
-                    </a>
+                        </a>
+                    </div>
+
+                    <div class="story-news">
+                        <a href="#">
+                            <div class="story-gogo-logo">
+                                <img src="https://mgl.gogo.mn//newsn/v4/images/author.df8ba556.svg" width="30" alt="">
+                            </div>
+                            <h3 class="story-news-title">"Аль ч улсад хүн худалдаалах гэмт хэргийн хохирогч
+                                болсон
+                            </h3>
+                            <div class="black-box"></div>
+                            <div class="story-image-box">
+                                <img src="https://mgl.gogo.mn/newsn/np/2023/09/29/5203274/15-105111-1406996982.jpeg"
+                                    alt="">
+
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="story-news">
+                        <a href="#">
+                            <div class="story-gogo-logo">
+                                <img src="https://mgl.gogo.mn//newsn/v4/images/author.df8ba556.svg" width="30" alt="">
+                            </div>
+                            <h3 class="story-news-title">"Аль ч улсад хүн худалдаалах гэмт хэргийн хохирогч
+                                болсон
+                            </h3>
+                            <div class="black-box"></div>
+                            <div class="story-image-box">
+                                <img src="https://mgl.gogo.mn/newsn/np/2023/09/29/5203274/15-105111-1406996982.jpeg"
+                                    alt="">
+
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="story-news">
+                        <a href="#">
+                            <div class="story-gogo-logo">
+                                <img src="https://mgl.gogo.mn//newsn/v4/images/author.df8ba556.svg" width="30" alt="">
+                            </div>
+                            <h3 class="story-news-title">"Аль ч улсад хүн худалдаалах гэмт хэргийн хохирогч
+                                болсон
+                            </h3>
+                            <div class="black-box"></div>
+                            <div class="story-image-box">
+                                <img src="https://mgl.gogo.mn/newsn/np/2023/09/29/5203274/15-105111-1406996982.jpeg"
+                                    alt="">
+
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="story-news">
+                        <a href="#">
+                            <div class="story-gogo-logo">
+                                <img src="https://mgl.gogo.mn//newsn/v4/images/author.df8ba556.svg" width="30" alt="">
+                            </div>
+                            <h3 class="story-news-title">"Аль ч улсад хүн худалдаалах гэмт хэргийн хохирогч
+                                болсон
+                            </h3>
+                            <div class="black-box"></div>
+                            <div class="story-image-box">
+                                <img src="https://mgl.gogo.mn/newsn/np/2023/09/29/5203274/15-105111-1406996982.jpeg"
+                                    alt="">
+
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="story-news">
+                        <a href="#">
+                            <div class="story-gogo-logo">
+                                <img src="https://mgl.gogo.mn//newsn/v4/images/author.df8ba556.svg" width="30" alt="">
+                            </div>
+                            <h3 class="story-news-title">"Аль ч улсад хүн худалдаалах гэмт хэргийн хохирогч
+                                болсон
+                            </h3>
+                            <div class="black-box"></div>
+                            <div class="story-image-box">
+                                <img src="https://mgl.gogo.mn/newsn/np/2023/09/29/5203274/15-105111-1406996982.jpeg"
+                                    alt="">
+
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="story-news">
+                        <a href="#">
+                            <div class="story-gogo-logo">
+                                <img src="https://mgl.gogo.mn//newsn/v4/images/author.df8ba556.svg" width="30" alt="">
+                            </div>
+                            <h3 class="story-news-title">"Аль ч улсад хүн худалдаалах гэмт хэргийн хохирогч
+                                болсон
+                            </h3>
+                            <div class="black-box"></div>
+                            <div class="story-image-box">
+                                <img src="https://mgl.gogo.mn/newsn/np/2023/09/29/5203274/15-105111-1406996982.jpeg"
+                                    alt="">
+
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="story-news">
+                        <a href="#">
+                            <div class="story-gogo-logo">
+                                <img src="https://mgl.gogo.mn//newsn/v4/images/author.df8ba556.svg" width="30" alt="">
+                            </div>
+                            <h3 class="story-news-title">"Аль ч улсад хүн худалдаалах гэмт хэргийн хохирогч
+                                болсон
+                            </h3>
+                            <div class="black-box"></div>
+                            <div class="story-image-box">
+                                <img src="https://mgl.gogo.mn/newsn/np/2023/09/29/5203274/15-105111-1406996982.jpeg"
+                                    alt="">
+
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="story-news">
+                        <a href="#">
+                            <div class="story-gogo-logo">
+                                <img src="https://mgl.gogo.mn//newsn/v4/images/author.df8ba556.svg" width="30" alt="">
+                            </div>
+                            <h3 class="story-news-title">"Аль ч улсад хүн худалдаалах гэмт хэргийн хохирогч
+                                болсон
+                            </h3>
+                            <div class="black-box"></div>
+                            <div class="story-image-box">
+                                <img src="https://mgl.gogo.mn/newsn/np/2023/09/29/5203274/15-105111-1406996982.jpeg"
+                                    alt="">
+
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="story-news">
+                        <a href="#">
+                            <div class="story-gogo-logo">
+                                <img src="https://mgl.gogo.mn//newsn/v4/images/author.df8ba556.svg" width="30" alt="">
+                            </div>
+                            <h3 class="story-news-title">"Аль ч улсад хүн худалдаалах гэмт хэргийн хохирогч
+                                болсон
+                            </h3>
+                            <div class="black-box"></div>
+                            <div class="story-image-box">
+                                <img src="https://mgl.gogo.mn/newsn/np/2023/09/29/5203274/15-105111-1406996982.jpeg"
+                                    alt="">
+
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="story-news">
+                        <a href="#">
+                            <div class="story-gogo-logo">
+                                <img src="https://mgl.gogo.mn//newsn/v4/images/author.df8ba556.svg" width="30" alt="">
+                            </div>
+                            <h3 class="story-news-title">"Аль ч улсад хүн худалдаалах гэмт хэргийн хохирогч
+                                болсон
+                            </h3>
+                            <div class="black-box"></div>
+                            <div class="story-image-box">
+                                <img src="https://mgl.gogo.mn/newsn/np/2023/09/29/5203274/15-105111-1406996982.jpeg"
+                                    alt="">
+
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="story-news">
+                        <a href="#">
+                            <div class="story-gogo-logo">
+                                <img src="https://mgl.gogo.mn//newsn/v4/images/author.df8ba556.svg" width="30" alt="">
+                            </div>
+                            <h3 class="story-news-title">"Аль ч улсад хүн худалдаалах гэмт хэргийн хохирогч
+                                болсон
+                            </h3>
+                            <div class="black-box"></div>
+                            <div class="story-image-box">
+                                <img src="https://mgl.gogo.mn/newsn/np/2023/09/29/5203274/15-105111-1406996982.jpeg"
+                                    alt="">
+
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="story-news">
+                        <a href="#">
+                            <div class="story-gogo-logo">
+                                <img src="https://mgl.gogo.mn//newsn/v4/images/author.df8ba556.svg" width="30" alt="">
+                            </div>
+                            <h3 class="story-news-title">"Аль ч улсад хүн худалдаалах гэмт хэргийн хохирогч
+                                болсон
+                            </h3>
+                            <div class="black-box"></div>
+                            <div class="story-image-box">
+                                <img src="https://mgl.gogo.mn/newsn/np/2023/09/29/5203274/15-105111-1406996982.jpeg"
+                                    alt="">
+
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="story-news">
+                        <a href="#">
+                            <div class="story-gogo-logo">
+                                <img src="https://mgl.gogo.mn//newsn/v4/images/author.df8ba556.svg" width="30" alt="">
+                            </div>
+                            <h3 class="story-news-title">"Аль ч улсад хүн худалдаалах гэмт хэргийн хохирогч
+                                болсон
+                            </h3>
+                            <div class="black-box"></div>
+                            <div class="story-image-box">
+                                <img src="https://mgl.gogo.mn/newsn/np/2023/09/29/5203274/15-105111-1406996982.jpeg"
+                                    alt="">
+
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="story-news">
+                        <a href="#">
+                            <div class="story-gogo-logo">
+                                <img src="https://mgl.gogo.mn//newsn/v4/images/author.df8ba556.svg" width="30" alt="">
+                            </div>
+                            <h3 class="story-news-title">"Аль ч улсад хүн худалдаалах гэмт хэргийн хохирогч
+                                болсон
+                            </h3>
+                            <div class="black-box"></div>
+                            <div class="story-image-box">
+                                <img src="https://mgl.gogo.mn/newsn/np/2023/09/29/5203274/15-105111-1406996982.jpeg"
+                                    alt="">
+
+                            </div>
+                        </a>
+                    </div>
+
+
+
                 </div>
             </div>
+
+
         </div>
     </div>
 
@@ -596,167 +994,6 @@
             <div class="left-column">
                 <div class="left-news">
                     <div class="daily-bar"></div>
-                    <div class="daily-news">
-                        <div class="daily-news-image">
-                            <img data-v-0aa28082=""
-                                src="https://mgl.gogo.mn/newsn/thumbnail/420/images/c/2023/09/311178-27092023-1695775686-660813924-_131252652_d023f0243e8f5c2682a0b5a4992e106911be6929.jpg">
-                        </div>
-                        <div class="daily-news-detail-container">
-                            <a href="#">
-                                <div class="daily-news-detail">
-                                    <h3 class="daily-news-title">ОХУ НҮБ-ын Хүний эрхийн зөвлөлд эргэн нэгдэхээр зорьж
-                                        байна
-                                    </h3>
-
-                                    <p class="daily-news-p">
-                                        НҮБ-ын Хүний эрхийн зөвлөлийн гишүүдийн сонгуульд ОХУ нэрээ өгөхөөр зорьж байна.
-                                        Өнгөрсөн оны дөрөвдүгээр сард буюу ОХУ Украиныг эзлэн түрэмгийлсний дараа тус
-                                        зөвлөлөөс
-                                        хасагдсан юм.
-
-                                    </p>
-
-                                    <div class="other-news-icons">
-                                        <div class="daily-news-icon">
-                                            <i class="fas fa-share color-light-gray text-15"></i>
-                                            <div class="reaction-number">
-                                                0
-                                            </div>
-                                        </div>
-                                        <div class="daily-news-icon">
-                                            <i class="fas fa-share color-light-gray text-15"></i>
-                                            <div class="reaction-number">
-                                                11
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="daily-news">
-                        <div class="daily-news-image">
-                            <img data-v-0aa28082=""
-                                src="https://mgl.gogo.mn/newsn/thumbnail/420/images/c/2023/09/311178-27092023-1695775686-660813924-_131252652_d023f0243e8f5c2682a0b5a4992e106911be6929.jpg">
-                        </div>
-                        <div class="daily-news-detail-container">
-                            <a href="#">
-                                <div class="daily-news-detail">
-                                    <h3 class="daily-news-title">ОХУ НҮБ-ын Хүний эрхийн зөвлөлд эргэн нэгдэхээр зорьж
-                                        байна
-                                    </h3>
-
-                                    <p class="daily-news-p">
-                                        НҮБ-ын Хүний эрхийн зөвлөлийн гишүүдийн сонгуульд ОХУ нэрээ өгөхөөр зорьж байна.
-                                        Өнгөрсөн оны дөрөвдүгээр сард буюу ОХУ Украиныг эзлэн түрэмгийлсний дараа тус
-                                        зөвлөлөөс
-                                        хасагдсан юм.
-
-                                    </p>
-
-                                    <div class="other-news-icons">
-                                        <div class="daily-news-icon">
-                                            <i class="fas fa-share color-light-gray text-15"></i>
-                                            <div class="reaction-number">
-                                                0
-                                            </div>
-                                        </div>
-                                        <div class="daily-news-icon">
-                                            <i class="fas fa-share color-light-gray text-15"></i>
-                                            <div class="reaction-number">
-                                                11
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-
-
-
-                    </div>
-                    <div class="daily-news">
-                        <div class="daily-news-image">
-                            <img data-v-0aa28082=""
-                                src="https://mgl.gogo.mn/newsn/thumbnail/420/images/c/2023/09/311178-27092023-1695775686-660813924-_131252652_d023f0243e8f5c2682a0b5a4992e106911be6929.jpg">
-                        </div>
-                        <div class="daily-news-detail-container">
-                            <a href="#">
-                                <div class="daily-news-detail">
-                                    <h3 class="daily-news-title">ОХУ НҮБ-ын Хүний эрхийн зөвлөлд эргэн нэгдэхээр зорьж
-                                        байна
-                                    </h3>
-
-                                    <p class="daily-news-p">
-                                        НҮБ-ын Хүний эрхийн зөвлөлийн гишүүдийн сонгуульд ОХУ нэрээ өгөхөөр зорьж байна.
-                                        Өнгөрсөн оны дөрөвдүгээр сард буюу ОХУ Украиныг эзлэн түрэмгийлсний дараа тус
-                                        зөвлөлөөс
-                                        хасагдсан юм.
-
-                                    </p>
-
-                                    <div class="other-news-icons">
-                                        <div class="daily-news-icon">
-                                            <i class="fas fa-share color-light-gray text-15"></i>
-                                            <div class="reaction-number">
-                                                0
-                                            </div>
-                                        </div>
-                                        <div class="daily-news-icon">
-                                            <i class="fas fa-share color-light-gray text-15"></i>
-                                            <div class="reaction-number">
-                                                11
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-
-
-
-                    </div>
-                    <div class="daily-news">
-                        <div class="daily-news-image">
-                            <img data-v-0aa28082=""
-                                src="https://mgl.gogo.mn/newsn/thumbnail/420/images/c/2023/09/311178-27092023-1695775686-660813924-_131252652_d023f0243e8f5c2682a0b5a4992e106911be6929.jpg">
-                        </div>
-                        <div class="daily-news-detail-container">
-                            <a href="#">
-                                <div class="daily-news-detail">
-                                    <h3 class="daily-news-title">ОХУ НҮБ-ын Хүний эрхийн зөвлөлд эргэн нэгдэхээр зорьж
-                                        байна
-                                    </h3>
-
-                                    <p class="daily-news-p">
-                                        НҮБ-ын Хүний эрхийн зөвлөлийн гишүүдийн сонгуульд ОХУ нэрээ өгөхөөр зорьж байна.
-                                        Өнгөрсөн оны дөрөвдүгээр сард буюу ОХУ Украиныг эзлэн түрэмгийлсний дараа тус
-                                        зөвлөлөөс
-                                        хасагдсан юм.
-
-                                    </p>
-
-                                    <div class="other-news-icons">
-                                        <div class="daily-news-icon">
-                                            <i class="fas fa-share color-light-gray text-15"></i>
-                                            <div class="reaction-number">
-                                                0
-                                            </div>
-                                        </div>
-                                        <div class="daily-news-icon">
-                                            <i class="fas fa-share color-light-gray text-15"></i>
-                                            <div class="reaction-number">
-                                                11
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-
-
-
-                    </div>
                     <div class="daily-news">
                         <div class="daily-news-image">
                             <img data-v-0aa28082=""
@@ -966,252 +1203,6 @@
 
 
                     </div>
-                    <div class="daily-news">
-                        <div class="daily-news-image">
-                            <img data-v-0aa28082=""
-                                src="https://mgl.gogo.mn/newsn/thumbnail/420/images/c/2023/09/311178-27092023-1695775686-660813924-_131252652_d023f0243e8f5c2682a0b5a4992e106911be6929.jpg">
-                        </div>
-                        <div class="daily-news-detail-container">
-                            <a href="#">
-                                <div class="daily-news-detail">
-                                    <h3 class="daily-news-title">ОХУ НҮБ-ын Хүний эрхийн зөвлөлд эргэн нэгдэхээр зорьж
-                                        байна
-                                    </h3>
-
-                                    <p class="daily-news-p">
-                                        НҮБ-ын Хүний эрхийн зөвлөлийн гишүүдийн сонгуульд ОХУ нэрээ өгөхөөр зорьж байна.
-                                        Өнгөрсөн оны дөрөвдүгээр сард буюу ОХУ Украиныг эзлэн түрэмгийлсний дараа тус
-                                        зөвлөлөөс
-                                        хасагдсан юм.
-
-                                    </p>
-
-                                    <div class="other-news-icons">
-                                        <div class="daily-news-icon">
-                                            <i class="fas fa-share color-light-gray text-15"></i>
-                                            <div class="reaction-number">
-                                                0
-                                            </div>
-                                        </div>
-                                        <div class="daily-news-icon">
-                                            <i class="fas fa-share color-light-gray text-15"></i>
-                                            <div class="reaction-number">
-                                                11
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-
-
-
-                    </div>
-                    <div class="daily-news">
-                        <div class="daily-news-image">
-                            <img data-v-0aa28082=""
-                                src="https://mgl.gogo.mn/newsn/thumbnail/420/images/c/2023/09/311178-27092023-1695775686-660813924-_131252652_d023f0243e8f5c2682a0b5a4992e106911be6929.jpg">
-                        </div>
-                        <div class="daily-news-detail-container">
-                            <a href="#">
-                                <div class="daily-news-detail">
-                                    <h3 class="daily-news-title">ОХУ НҮБ-ын Хүний эрхийн зөвлөлд эргэн нэгдэхээр зорьж
-                                        байна
-                                    </h3>
-
-                                    <p class="daily-news-p">
-                                        НҮБ-ын Хүний эрхийн зөвлөлийн гишүүдийн сонгуульд ОХУ нэрээ өгөхөөр зорьж байна.
-                                        Өнгөрсөн оны дөрөвдүгээр сард буюу ОХУ Украиныг эзлэн түрэмгийлсний дараа тус
-                                        зөвлөлөөс
-                                        хасагдсан юм.
-
-                                    </p>
-
-                                    <div class="other-news-icons">
-                                        <div class="daily-news-icon">
-                                            <i class="fas fa-share color-light-gray text-15"></i>
-                                            <div class="reaction-number">
-                                                0
-                                            </div>
-                                        </div>
-                                        <div class="daily-news-icon">
-                                            <i class="fas fa-share color-light-gray text-15"></i>
-                                            <div class="reaction-number">
-                                                11
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-
-
-
-                    </div>
-                    <div class="daily-news">
-                        <div class="daily-news-image">
-                            <img data-v-0aa28082=""
-                                src="https://mgl.gogo.mn/newsn/thumbnail/420/images/c/2023/09/311178-27092023-1695775686-660813924-_131252652_d023f0243e8f5c2682a0b5a4992e106911be6929.jpg">
-                        </div>
-                        <div class="daily-news-detail-container">
-                            <a href="#">
-                                <div class="daily-news-detail">
-                                    <h3 class="daily-news-title">ОХУ НҮБ-ын Хүний эрхийн зөвлөлд эргэн нэгдэхээр зорьж
-                                        байна
-                                    </h3>
-
-                                    <p class="daily-news-p">
-                                        НҮБ-ын Хүний эрхийн зөвлөлийн гишүүдийн сонгуульд ОХУ нэрээ өгөхөөр зорьж байна.
-                                        Өнгөрсөн оны дөрөвдүгээр сард буюу ОХУ Украиныг эзлэн түрэмгийлсний дараа тус
-                                        зөвлөлөөс
-                                        хасагдсан юм.
-
-                                    </p>
-
-                                    <div class="other-news-icons">
-                                        <div class="daily-news-icon">
-                                            <i class="fas fa-share color-light-gray text-15"></i>
-                                            <div class="reaction-number">
-                                                0
-                                            </div>
-                                        </div>
-                                        <div class="daily-news-icon">
-                                            <i class="fas fa-share color-light-gray text-15"></i>
-                                            <div class="reaction-number">
-                                                11
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-
-
-
-                    </div>
-                    <div class="daily-news">
-                        <div class="daily-news-image">
-                            <img data-v-0aa28082=""
-                                src="https://mgl.gogo.mn/newsn/thumbnail/420/images/c/2023/09/311178-27092023-1695775686-660813924-_131252652_d023f0243e8f5c2682a0b5a4992e106911be6929.jpg">
-                        </div>
-                        <div class="daily-news-detail-container">
-                            <a href="#">
-                                <div class="daily-news-detail">
-                                    <h3 class="daily-news-title">ОХУ НҮБ-ын Хүний эрхийн зөвлөлд эргэн нэгдэхээр зорьж
-                                        байна
-                                    </h3>
-
-                                    <p class="daily-news-p">
-                                        НҮБ-ын Хүний эрхийн зөвлөлийн гишүүдийн сонгуульд ОХУ нэрээ өгөхөөр зорьж байна.
-                                        Өнгөрсөн оны дөрөвдүгээр сард буюу ОХУ Украиныг эзлэн түрэмгийлсний дараа тус
-                                        зөвлөлөөс
-                                        хасагдсан юм.
-
-                                    </p>
-
-                                    <div class="other-news-icons">
-                                        <div class="daily-news-icon">
-                                            <i class="fas fa-share color-light-gray text-15"></i>
-                                            <div class="reaction-number">
-                                                0
-                                            </div>
-                                        </div>
-                                        <div class="daily-news-icon">
-                                            <i class="fas fa-share color-light-gray text-15"></i>
-                                            <div class="reaction-number">
-                                                11
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-
-
-
-                    </div>
-                    <div class="daily-news">
-                        <div class="daily-news-image">
-                            <img data-v-0aa28082=""
-                                src="https://mgl.gogo.mn/newsn/thumbnail/420/images/c/2023/09/311178-27092023-1695775686-660813924-_131252652_d023f0243e8f5c2682a0b5a4992e106911be6929.jpg">
-                        </div>
-                        <div class="daily-news-detail-container">
-                            <a href="#">
-                                <div class="daily-news-detail">
-                                    <h3 class="daily-news-title">ОХУ НҮБ-ын Хүний эрхийн зөвлөлд эргэн нэгдэхээр зорьж
-                                        байна
-                                    </h3>
-
-                                    <p class="daily-news-p">
-                                        НҮБ-ын Хүний эрхийн зөвлөлийн гишүүдийн сонгуульд ОХУ нэрээ өгөхөөр зорьж байна.
-                                        Өнгөрсөн оны дөрөвдүгээр сард буюу ОХУ Украиныг эзлэн түрэмгийлсний дараа тус
-                                        зөвлөлөөс
-                                        хасагдсан юм.
-
-                                    </p>
-
-                                    <div class="other-news-icons">
-                                        <div class="daily-news-icon">
-                                            <i class="fas fa-share color-light-gray text-15"></i>
-                                            <div class="reaction-number">
-                                                0
-                                            </div>
-                                        </div>
-                                        <div class="daily-news-icon">
-                                            <i class="fas fa-share color-light-gray text-15"></i>
-                                            <div class="reaction-number">
-                                                11
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-
-
-
-                    </div>
-                    <div class="daily-news">
-                        <div class="daily-news-image">
-                            <img data-v-0aa28082=""
-                                src="https://mgl.gogo.mn/newsn/thumbnail/420/images/c/2023/09/311178-27092023-1695775686-660813924-_131252652_d023f0243e8f5c2682a0b5a4992e106911be6929.jpg">
-                        </div>
-                        <div class="daily-news-detail-container">
-                            <a href="#">
-                                <div class="daily-news-detail">
-                                    <h3 class="daily-news-title">ОХУ НҮБ-ын Хүний эрхийн зөвлөлд эргэн нэгдэхээр зорьж
-                                        байна
-                                    </h3>
-
-                                    <p class="daily-news-p">
-                                        НҮБ-ын Хүний эрхийн зөвлөлийн гишүүдийн сонгуульд ОХУ нэрээ өгөхөөр зорьж байна.
-                                        Өнгөрсөн оны дөрөвдүгээр сард буюу ОХУ Украиныг эзлэн түрэмгийлсний дараа тус
-                                        зөвлөлөөс
-                                        хасагдсан юм.
-
-                                    </p>
-
-                                    <div class="other-news-icons">
-                                        <div class="daily-news-icon">
-                                            <i class="fas fa-share color-light-gray text-15"></i>
-                                            <div class="reaction-number">
-                                                0
-                                            </div>
-                                        </div>
-                                        <div class="daily-news-icon">
-                                            <i class="fas fa-share color-light-gray text-15"></i>
-                                            <div class="reaction-number">
-                                                11
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-
-
-
-                    </div>
 
                     <div class="see-more">
 
@@ -1222,66 +1213,6 @@
             <div class="right-column">
                 <div class="right-header"></div>
                 <div class="light-news-container">
-                    <div class="light-news">
-                        <div class="light-news-image">
-                            <img data-v-0aa28082=""
-                                src="https://mgl.gogo.mn/newsn/thumbnail/420/images/c/2023/09/311178-27092023-1695775686-660813924-_131252652_d023f0243e8f5c2682a0b5a4992e106911be6929.jpg">
-                        </div>
-                        <div class="light-news-details">
-
-                            <h3 class="light-news-title">ОХУ НҮБ-ын Хүний эрхийн зөвлөлд эргэн нэгдэхээр зорьж
-                                байна
-                            </h3>
-
-                            <div class="other-news-icons">
-                                <div class="light-news-icon">
-                                    <i class="fas fa-share color-light-gray text-15"></i>
-                                    <div class="reaction-number">
-                                        0
-                                    </div>
-                                </div>
-                                <div class="light-news-icon">
-                                    <i class="fas fa-share color-light-gray text-15"></i>
-                                    <div class="reaction-number">
-                                        11
-                                    </div>
-                                </div>
-                            </div>
-
-
-                        </div>
-                    </div>
-
-                    <div class="light-news">
-                        <div class="light-news-image">
-                            <img data-v-0aa28082=""
-                                src="https://mgl.gogo.mn/newsn/thumbnail/420/images/c/2023/09/311178-27092023-1695775686-660813924-_131252652_d023f0243e8f5c2682a0b5a4992e106911be6929.jpg">
-                        </div>
-                        <div class="light-news-details">
-
-                            <h3 class="light-news-title">ОХУ НҮБ-ын Хүний эрхийн зөвлөлд эргэн нэгдэхээр зорьж
-                                байна
-                            </h3>
-
-                            <div class="other-news-icons">
-                                <div class="light-news-icon">
-                                    <i class="fas fa-share color-light-gray text-15"></i>
-                                    <div class="reaction-number">
-                                        0
-                                    </div>
-                                </div>
-                                <div class="light-news-icon">
-                                    <i class="fas fa-share color-light-gray text-15"></i>
-                                    <div class="reaction-number">
-                                        11
-                                    </div>
-                                </div>
-                            </div>
-
-
-                        </div>
-                    </div>
-
                     <div class="light-news">
                         <div class="light-news-image">
                             <img data-v-0aa28082=""
@@ -1465,180 +1396,7 @@
                             </div>
                         </div>
                         <hr class="trend-line">
-                        <div class="trend-news-details flex">
-                            <div class="trend-news-number">
-                                5
-                            </div>
 
-                            <div class="trend-news-title-icon-grp">
-                                <p class="trend-news-title font-14">ОХУ НҮБ-ын Хүний эрхийн зөвлөлд эргэн нэгдэхээр
-                                    НҮБ-ын Хүний эрхийн зөвлөлд эргэн нэгдэхээр
-                                    зорьж
-                                    байна
-                                </p>
-
-                                <div class="other-news-icons">
-                                    <div class="light-news-icon">
-                                        <i class="fas fa-share color-light-gray text-15"></i>
-                                        <div class="reaction-number">
-                                            0
-                                        </div>
-                                    </div>
-                                    <div class="light-news-icon">
-                                        <i class="fas fa-share color-light-gray text-15"></i>
-                                        <div class="reaction-number">
-                                            11
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <hr class="trend-line">
-                        <div class="trend-news-details flex">
-                            <div class="trend-news-number">
-                                6
-                            </div>
-
-                            <div class="trend-news-title-icon-grp">
-                                <p class="trend-news-title font-14">ОХУ НҮБ-ын Хүний эрхийн зөвлөлд эргэн нэгдэхээр
-                                    НҮБ-ын Хүний эрхийн зөвлөлд эргэн нэгдэхээр
-                                    зорьж
-                                    байна
-                                </p>
-
-                                <div class="other-news-icons">
-                                    <div class="light-news-icon">
-                                        <i class="fas fa-share color-light-gray text-15"></i>
-                                        <div class="reaction-number">
-                                            0
-                                        </div>
-                                    </div>
-                                    <div class="light-news-icon">
-                                        <i class="fas fa-share color-light-gray text-15"></i>
-                                        <div class="reaction-number">
-                                            11
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <hr class="trend-line">
-                        <div class="trend-news-details flex">
-                            <div class="trend-news-number">
-                                7
-                            </div>
-
-                            <div class="trend-news-title-icon-grp">
-                                <p class="trend-news-title font-14">ОХУ НҮБ-ын Хүний эрхийн зөвлөлд эргэн нэгдэхээр
-                                    НҮБ-ын Хүний эрхийн зөвлөлд эргэн нэгдэхээр
-                                    зорьж
-                                    байна
-                                </p>
-
-                                <div class="other-news-icons">
-                                    <div class="light-news-icon">
-                                        <i class="fas fa-share color-light-gray text-15"></i>
-                                        <div class="reaction-number">
-                                            0
-                                        </div>
-                                    </div>
-                                    <div class="light-news-icon">
-                                        <i class="fas fa-share color-light-gray text-15"></i>
-                                        <div class="reaction-number">
-                                            11
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <hr class="trend-line">
-                        <div class="trend-news-details flex">
-                            <div class="trend-news-number">
-                                8
-                            </div>
-
-                            <div class="trend-news-title-icon-grp">
-                                <p class="trend-news-title font-14">ОХУ НҮБ-ын Хүний эрхийн зөвлөлд эргэн нэгдэхээр
-                                    НҮБ-ын Хүний эрхийн зөвлөлд эргэн нэгдэхээр
-                                    зорьж
-                                    байна
-                                </p>
-
-                                <div class="other-news-icons">
-                                    <div class="light-news-icon">
-                                        <i class="fas fa-share color-light-gray text-15"></i>
-                                        <div class="reaction-number">
-                                            0
-                                        </div>
-                                    </div>
-                                    <div class="light-news-icon">
-                                        <i class="fas fa-share color-light-gray text-15"></i>
-                                        <div class="reaction-number">
-                                            11
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <hr class="trend-line">
-                        <div class="trend-news-details flex">
-                            <div class="trend-news-number">
-                                9
-                            </div>
-
-                            <div class="trend-news-title-icon-grp">
-                                <p class="trend-news-title font-14">ОХУ НҮБ-ын Хүний эрхийн зөвлөлд эргэн нэгдэхээр
-                                    НҮБ-ын Хүний эрхийн зөвлөлд эргэн нэгдэхээр
-                                    зорьж
-                                    байна
-                                </p>
-
-                                <div class="other-news-icons">
-                                    <div class="light-news-icon">
-                                        <i class="fas fa-share color-light-gray text-15"></i>
-                                        <div class="reaction-number">
-                                            0
-                                        </div>
-                                    </div>
-                                    <div class="light-news-icon">
-                                        <i class="fas fa-share color-light-gray text-15"></i>
-                                        <div class="reaction-number">
-                                            11
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <hr class="trend-line">
-                        <div class="trend-news-details flex">
-                            <div class="trend-news-number">
-                                10
-                            </div>
-
-                            <div class="trend-news-title-icon-grp">
-                                <p class="trend-news-title font-14">ОХУ НҮБ-ын Хүний эрхийн зөвлөлд эргэн нэгдэхээр
-                                    НҮБ-ын Хүний эрхийн зөвлөлд эргэн нэгдэхээр
-                                    зорьж
-                                    байна
-                                </p>
-
-                                <div class="other-news-icons">
-                                    <div class="light-news-icon">
-                                        <i class="fas fa-share color-light-gray text-15"></i>
-                                        <div class="reaction-number">
-                                            0
-                                        </div>
-                                    </div>
-                                    <div class="light-news-icon">
-                                        <i class="fas fa-share color-light-gray text-15"></i>
-                                        <div class="reaction-number">
-                                            11
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <hr class="trend-line">
                     </div>
                 </div>
 
@@ -1769,8 +1527,8 @@
                     <div class="div">
                         <div class="mayg-card">
                             <div class="mayg-image-box">
-                                <img src="https://mgl.gogo.mn/newsn/thumbnail/1000/images/c/2023/09/310760-18092023-1695002878-982692408-minii_sanal_bolgoh_nom.jpg"
-                                    alt="">
+                                <img
+                                    src="https://mgl.gogo.mn/newsn/thumbnail/1000/images/c/2020/04/253533-03042020-1585902739-579747585-Untitled-1.jpg">
                             </div>
                             <h3>Хоолны жор: Тахиан махан КАЦУ Lorem ipsum dolor</h3>
                             <div class="other-news-icons">
@@ -1792,8 +1550,8 @@
                     <div class="div">
                         <div class="mayg-card">
                             <div class="mayg-image-box">
-                                <img src="https://mgl.gogo.mn/newsn/thumbnail/1000/images/c/2023/09/310760-18092023-1695002878-982692408-minii_sanal_bolgoh_nom.jpg"
-                                    alt="">
+                                <img
+                                    src="https://mgl.gogo.mn/newsn/thumbnail/1000/images/c/2020/04/253533-03042020-1585902739-579747585-Untitled-1.jpg">
                             </div>
                             <h3>Хоолны жор: Тахиан махан КАЦУ Lorem ipsum dolor</h3>
                             <div class="other-news-icons">
@@ -1815,8 +1573,8 @@
                     <div class="div">
                         <div class="mayg-card">
                             <div class="mayg-image-box">
-                                <img src="https://mgl.gogo.mn/newsn/thumbnail/1000/images/c/2023/09/310760-18092023-1695002878-982692408-minii_sanal_bolgoh_nom.jpg"
-                                    alt="">
+                                <img
+                                    src="https://mgl.gogo.mn/newsn/thumbnail/1000/images/c/2020/04/253533-03042020-1585902739-579747585-Untitled-1.jpg">
                             </div>
                             <h3>Хоолны жор: Тахиан махан КАЦУ Lorem ipsum dolor</h3>
                             <div class="other-news-icons">
@@ -1838,8 +1596,31 @@
                     <div class="div">
                         <div class="mayg-card">
                             <div class="mayg-image-box">
-                                <img src="https://mgl.gogo.mn/newsn/thumbnail/1000/images/c/2023/09/310760-18092023-1695002878-982692408-minii_sanal_bolgoh_nom.jpg"
-                                    alt="">
+                                <img
+                                    src="https://mgl.gogo.mn/newsn/thumbnail/1000/images/c/2020/04/253533-03042020-1585902739-579747585-Untitled-1.jpg">
+                            </div>
+                            <h3>Хоолны жор: Тахиан махан КАЦУ Lorem ipsum dolor</h3>
+                            <div class="other-news-icons">
+                                <div class="daily-news-icon">
+                                    <i class="fas fa-share color-light-gray text-15"></i>
+                                    <div class="reaction-number">
+                                        0
+                                    </div>
+                                </div>
+                                <div class="daily-news-icon">
+                                    <i class="fas fa-share color-light-gray text-15"></i>
+                                    <div class="reaction-number">
+                                        11
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="div">
+                        <div class="mayg-card">
+                            <div class="mayg-image-box">
+                                <img
+                                    src="https://mgl.gogo.mn/newsn/thumbnail/1000/images/c/2020/04/253533-03042020-1585902739-579747585-Untitled-1.jpg">
                             </div>
                             <h3>Хоолны жор: Тахиан махан КАЦУ Lorem ipsum dolor</h3>
                             <div class="other-news-icons">
@@ -1859,6 +1640,29 @@
                         </div>
                     </div>
 
+                    <div class="div">
+                        <div class="mayg-card">
+                            <div class="mayg-image-box">
+                                <img
+                                    src="https://mgl.gogo.mn/newsn/thumbnail/1000/images/c/2020/04/253533-03042020-1585902739-579747585-Untitled-1.jpg">
+                            </div>
+                            <h3>Хоолны жор: Тахиан махан КАЦУ Lorem ipsum dolor</h3>
+                            <div class="other-news-icons">
+                                <div class="daily-news-icon">
+                                    <i class="fas fa-share color-light-gray text-15"></i>
+                                    <div class="reaction-number">
+                                        0
+                                    </div>
+                                </div>
+                                <div class="daily-news-icon">
+                                    <i class="fas fa-share color-light-gray text-15"></i>
+                                    <div class="reaction-number">
+                                        11
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
 
                 </div>
@@ -1876,8 +1680,8 @@
                     <div class="div">
                         <div class="mayg-card">
                             <div class="mayg-image-box">
-                                <img src="https://mgl.gogo.mn/newsn/thumbnail/1000/images/c/2023/09/310760-18092023-1695002878-982692408-minii_sanal_bolgoh_nom.jpg"
-                                    alt="">
+                                <img
+                                    src="https://mgl.gogo.mn/newsn/thumbnail/1000/images/c/2020/04/253533-03042020-1585902739-579747585-Untitled-1.jpg">
                             </div>
                             <h3>Хоолны жор: Тахиан махан КАЦУ Lorem ipsum dolor</h3>
                             <div class="other-news-icons">
@@ -1899,8 +1703,8 @@
                     <div class="div">
                         <div class="mayg-card">
                             <div class="mayg-image-box">
-                                <img src="https://mgl.gogo.mn/newsn/thumbnail/1000/images/c/2023/09/310760-18092023-1695002878-982692408-minii_sanal_bolgoh_nom.jpg"
-                                    alt="">
+                                <img
+                                    src="https://mgl.gogo.mn/newsn/thumbnail/1000/images/c/2020/04/253533-03042020-1585902739-579747585-Untitled-1.jpg">
                             </div>
                             <h3>Хоолны жор: Тахиан махан КАЦУ Lorem ipsum dolor</h3>
                             <div class="other-news-icons">
@@ -1922,8 +1726,8 @@
                     <div class="div">
                         <div class="mayg-card">
                             <div class="mayg-image-box">
-                                <img src="https://mgl.gogo.mn/newsn/thumbnail/1000/images/c/2023/09/310760-18092023-1695002878-982692408-minii_sanal_bolgoh_nom.jpg"
-                                    alt="">
+                                <img
+                                    src="https://mgl.gogo.mn/newsn/thumbnail/1000/images/c/2020/04/253533-03042020-1585902739-579747585-Untitled-1.jpg">
                             </div>
                             <h3>Хоолны жор: Тахиан махан КАЦУ Lorem ipsum dolor</h3>
                             <div class="other-news-icons">
@@ -1945,8 +1749,8 @@
                     <div class="div">
                         <div class="mayg-card">
                             <div class="mayg-image-box">
-                                <img src="https://mgl.gogo.mn/newsn/thumbnail/1000/images/c/2023/09/310760-18092023-1695002878-982692408-minii_sanal_bolgoh_nom.jpg"
-                                    alt="">
+                                <img
+                                    src="https://mgl.gogo.mn/newsn/thumbnail/1000/images/c/2020/04/253533-03042020-1585902739-579747585-Untitled-1.jpg">
                             </div>
                             <h3>Хоолны жор: Тахиан махан КАЦУ Lorem ipsum dolor</h3>
                             <div class="other-news-icons">
@@ -1965,7 +1769,52 @@
                             </div>
                         </div>
                     </div>
-
+                    <div class="div">
+                        <div class="mayg-card">
+                            <div class="mayg-image-box">
+                                <img
+                                    src="https://mgl.gogo.mn/newsn/thumbnail/1000/images/c/2020/04/253533-03042020-1585902739-579747585-Untitled-1.jpg">
+                            </div>
+                            <h3>Хоолны жор: Тахиан махан КАЦУ Lorem ipsum dolor</h3>
+                            <div class="other-news-icons">
+                                <div class="daily-news-icon">
+                                    <i class="fas fa-share color-light-gray text-15"></i>
+                                    <div class="reaction-number">
+                                        0
+                                    </div>
+                                </div>
+                                <div class="daily-news-icon">
+                                    <i class="fas fa-share color-light-gray text-15"></i>
+                                    <div class="reaction-number">
+                                        11
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="div">
+                        <div class="mayg-card">
+                            <div class="mayg-image-box">
+                                <img
+                                    src="https://mgl.gogo.mn/newsn/thumbnail/1000/images/c/2020/04/253533-03042020-1585902739-579747585-Untitled-1.jpg">
+                            </div>
+                            <h3>Хоолны жор: Тахиан махан КАЦУ Lorem ipsum dolor</h3>
+                            <div class="other-news-icons">
+                                <div class="daily-news-icon">
+                                    <i class="fas fa-share color-light-gray text-15"></i>
+                                    <div class="reaction-number">
+                                        0
+                                    </div>
+                                </div>
+                                <div class="daily-news-icon">
+                                    <i class="fas fa-share color-light-gray text-15"></i>
+                                    <div class="reaction-number">
+                                        11
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
 
                 </div>
@@ -1978,13 +1827,13 @@
                     Comic</span></a>
             </div>
             <div class="mayg-block-box">
-                <div class="mayg-flex-box">
+                <div class="comic-flex-box">
 
                     <div class="div">
                         <div class="mayg-card">
-                            <div class="mayg-image-box">
-                                <img src="https://mgl.gogo.mn/newsn/thumbnail/1000/images/c/2023/09/310760-18092023-1695002878-982692408-minii_sanal_bolgoh_nom.jpg"
-                                    alt="">
+                            <div class="comic-image-box">
+                                <img
+                                    src="https://mgl.gogo.mn/newsn/comic/2023/05/03/3772/hugjliin_bank-184555-1805228234.jpeg">
                             </div>
                             <h3>Хоолны жор: Тахиан махан КАЦУ Lorem ipsum dolor</h3>
                             <div class="other-news-icons">
@@ -2003,11 +1852,12 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="div">
                         <div class="mayg-card">
-                            <div class="mayg-image-box">
-                                <img src="https://mgl.gogo.mn/newsn/thumbnail/1000/images/c/2023/09/310760-18092023-1695002878-982692408-minii_sanal_bolgoh_nom.jpg"
-                                    alt="">
+                            <div class="comic-image-box">
+                                <img
+                                    src="https://mgl.gogo.mn/newsn/comic/2023/05/03/3772/hugjliin_bank-184555-1805228234.jpeg">
                             </div>
                             <h3>Хоолны жор: Тахиан махан КАЦУ Lorem ipsum dolor</h3>
                             <div class="other-news-icons">
@@ -2026,6 +1876,104 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="div">
+                        <div class="mayg-card">
+                            <div class="comic-image-box">
+                                <img
+                                    src="https://mgl.gogo.mn/newsn/comic/2023/05/03/3772/hugjliin_bank-184555-1805228234.jpeg">
+                            </div>
+                            <h3>Хоолны жор: Тахиан махан КАЦУ Lorem ipsum dolor</h3>
+                            <div class="other-news-icons">
+                                <div class="daily-news-icon">
+                                    <i class="fas fa-share color-light-gray text-15"></i>
+                                    <div class="reaction-number">
+                                        0
+                                    </div>
+                                </div>
+                                <div class="daily-news-icon">
+                                    <i class="fas fa-share color-light-gray text-15"></i>
+                                    <div class="reaction-number">
+                                        11
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="div">
+                        <div class="mayg-card">
+                            <div class="comic-image-box">
+                                <img
+                                    src="https://mgl.gogo.mn/newsn/comic/2023/05/03/3772/hugjliin_bank-184555-1805228234.jpeg">
+                            </div>
+                            <h3>Хоолны жор: Тахиан махан КАЦУ Lorem ipsum dolor</h3>
+                            <div class="other-news-icons">
+                                <div class="daily-news-icon">
+                                    <i class="fas fa-share color-light-gray text-15"></i>
+                                    <div class="reaction-number">
+                                        0
+                                    </div>
+                                </div>
+                                <div class="daily-news-icon">
+                                    <i class="fas fa-share color-light-gray text-15"></i>
+                                    <div class="reaction-number">
+                                        11
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="div">
+                        <div class="mayg-card">
+                            <div class="comic-image-box">
+                                <img
+                                    src="https://mgl.gogo.mn/newsn/comic/2023/05/03/3772/hugjliin_bank-184555-1805228234.jpeg">
+                            </div>
+                            <h3>Хоолны жор: Тахиан махан КАЦУ Lorem ipsum dolor</h3>
+                            <div class="other-news-icons">
+                                <div class="daily-news-icon">
+                                    <i class="fas fa-share color-light-gray text-15"></i>
+                                    <div class="reaction-number">
+                                        0
+                                    </div>
+                                </div>
+                                <div class="daily-news-icon">
+                                    <i class="fas fa-share color-light-gray text-15"></i>
+                                    <div class="reaction-number">
+                                        11
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="div">
+                        <div class="mayg-card">
+                            <div class="comic-image-box">
+                                <img
+                                    src="https://mgl.gogo.mn/newsn/comic/2023/05/03/3772/hugjliin_bank-184555-1805228234.jpeg">
+                            </div>
+                            <h3>Хоолны жор: Тахиан махан КАЦУ Lorem ipsum dolor</h3>
+                            <div class="other-news-icons">
+                                <div class="daily-news-icon">
+                                    <i class="fas fa-share color-light-gray text-15"></i>
+                                    <div class="reaction-number">
+                                        0
+                                    </div>
+                                </div>
+                                <div class="daily-news-icon">
+                                    <i class="fas fa-share color-light-gray text-15"></i>
+                                    <div class="reaction-number">
+                                        11
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
                 </div>
             </div>
         </div>
@@ -2041,7 +1989,7 @@
                 </div>
                 <div class="div">
                     <div class="mayg-card">
-                        <div class="mayg-image-box">
+                        <div class="live-image-box">
                             <img src="https://mgl.gogo.mn/newsn/thumbnail/1000/images/c/2023/09/310760-18092023-1695002878-982692408-minii_sanal_bolgoh_nom.jpg"
                                 alt="">
                         </div>
@@ -2064,7 +2012,7 @@
                 </div>
                 <div class="div">
                     <div class="mayg-card">
-                        <div class="mayg-image-box">
+                        <div class="live-image-box">
                             <img src="https://mgl.gogo.mn/newsn/thumbnail/1000/images/c/2023/09/310760-18092023-1695002878-982692408-minii_sanal_bolgoh_nom.jpg"
                                 alt="">
                         </div>
@@ -2087,7 +2035,7 @@
                 </div>
                 <div class="div">
                     <div class="mayg-card">
-                        <div class="mayg-image-box">
+                        <div class="live-image-box">
                             <img src="https://mgl.gogo.mn/newsn/thumbnail/1000/images/c/2023/09/310760-18092023-1695002878-982692408-minii_sanal_bolgoh_nom.jpg"
                                 alt="">
                         </div>
@@ -2110,7 +2058,7 @@
                 </div>
                 <div class="div">
                     <div class="mayg-card">
-                        <div class="mayg-image-box">
+                        <div class="live-image-box">
                             <img src="https://mgl.gogo.mn/newsn/thumbnail/1000/images/c/2023/09/310760-18092023-1695002878-982692408-minii_sanal_bolgoh_nom.jpg"
                                 alt="">
                         </div>
@@ -2133,7 +2081,7 @@
                 </div>
                 <div class="div">
                     <div class="mayg-card">
-                        <div class="mayg-image-box">
+                        <div class="live-image-box">
                             <img src="https://mgl.gogo.mn/newsn/thumbnail/1000/images/c/2023/09/310760-18092023-1695002878-982692408-minii_sanal_bolgoh_nom.jpg"
                                 alt="">
                         </div>
@@ -2156,7 +2104,7 @@
                 </div>
                 <div class="div">
                     <div class="mayg-card">
-                        <div class="mayg-image-box">
+                        <div class="live-image-box">
                             <img src="https://mgl.gogo.mn/newsn/thumbnail/1000/images/c/2023/09/310760-18092023-1695002878-982692408-minii_sanal_bolgoh_nom.jpg"
                                 alt="">
                         </div>

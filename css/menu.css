@@ -5,11 +5,13 @@
 @media only screen and (max-width: 960px) {
     .container {
         width: 100vw !important;
-        padding: 0px !important;
+        padding-right: 20px !important;
+        padding-left: 20px !important;
     }
 
-    .navbar {
-        justify-content: flex-start;
+    .categorys {
+        display: none;
+        /* justify-content: flex-start; */
     }
 
     .content-links,
@@ -105,4 +107,8 @@
         font-size: 40px;
         padding: 1rem;
     }
+
+    /* goliin medeenuud neg egneend oruulah  */
+
+
 }

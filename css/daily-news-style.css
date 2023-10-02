@@ -53,6 +53,7 @@
     position: relative;
     width: 100%;
     padding-top: 45%;
+    margin-top: 20px;
 }
 
 .banner-image-box img {
@@ -184,4 +185,18 @@
 .trend-line {
     width: 100%;
     border-top: dotted 1px #888;
+}
+
+@media only screen and (max-width: 960px) {
+
+    .right-column,
+    .middle-line,
+    .daily-bar {
+        display: none;
+    }
+
+    .left-column {
+        width: 100%;
+    }
+
 }

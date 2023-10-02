@@ -1,23 +1,25 @@
 .mayg-container {
     width: 100%;
+    overflow: hidden;
 }
 
 .mayg-block-box {
     width: 100%;
-    border: 2px solid green;
+    /* border: 2px solid green; */
 }
 
 .mayg-flex-box {
     /* width: ; */
     display: flex;
-    width: 100%;
+    width: calc(600% / 4);
+    gap: 10px;
 }
 
 .mayg-flex-box>div {
     position: relative;
     flex-grow: 1;
-    border: 8px solid black;
-    border-radius: 5px;
+    /* border: 8px solid black; */
+    /* border-radius: 5px; */
 }
 
 .mayg-card {
@@ -37,4 +39,57 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+/* comic style */
+.comic-flex-box {
+    /* width: ; */
+    display: flex;
+    width: calc(600% / 2);
+    gap: 10px;
+
+}
+
+.comic-flex-box>div {
+    position: relative;
+    flex-grow: 1;
+    border: 2px solid red;
+}
+
+.comic-image-box {
+    position: relative;
+    width: 100%;
+    padding-top: 45%;
+}
+
+.comic-image-box img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 960px) {
+    .mayg-flex-box {
+        width: calc(600% / 3);
+    }
+
+    .comic-flex-box {
+        width: calc(600% / 1);
+    }
+
+
+}
+
+@media only screen and (max-width: 640px) {
+    .mayg-flex-box {
+        width: calc(600% / 2);
+    }
+
+    .comic-flex-box {
+        width: calc(600% / 1);
+    }
+
 }
